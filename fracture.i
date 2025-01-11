@@ -135,9 +135,9 @@
   []
   [Free_energy_1]
     type = DerivativeParsedMaterial
-    material_property_names = ' degradation'
+ #   material_property_names = ' degradation'
     property_name = F_1
-    coupled_variables = 'positive_energy c'
+    coupled_variables = 'positive_energy'
     expression = 'positive_energy'
     outputs = exodus
   []
