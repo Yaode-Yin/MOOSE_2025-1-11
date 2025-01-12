@@ -84,11 +84,6 @@
     variable = c
     kappa_name = kappa_op
   [../]
-  
-  [./dc_dt]
-    type = TimeDerivative
-    variable = c
-  []
 []
 
 
